@@ -188,6 +188,13 @@ hr {
 /*---------------------- Media query----------------------- */
 /* -----------------Mobile device------------------------- */
 @media only screen and (max-width:688px) {
+    
+    .nav{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
     .container {
         width: 100%;
     }
@@ -206,6 +213,10 @@ hr {
 
 /*------------------- Tablet device-------------------- */
 @media only screen and (min-width:689px) and (max-width:992px) {
+    .nav{
+        
+        width: 100%;
+    }
     .container {
         width: 100%;
     }
